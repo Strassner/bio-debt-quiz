@@ -61,7 +61,7 @@ const QUESTIONS = [
   'Do you hit a wall before 3pm regardless of how much sleep you got the night before?',
   'Do you eat well during the day and then find yourself losing control around food at night?',
   'Do you gain weight noticeably faster during stressful periods even when your diet stays roughly the same?',
-  'Have you ever done everything right — clean diet, consistent training — and still had the scale not move for weeks?',
+  'Have you ever done everything right, clean diet, consistent training, and still had the scale not move for weeks?',
   'Do you fall asleep fine but wake up somewhere between 2am and 4am regularly?',
   'Do you wake up after seven or eight hours and still feel like you need another two?',
   'Has your focus and mental sharpness at work quietly declined over the last few years?',
@@ -147,7 +147,7 @@ function LandingScreen({ onStart }: { onStart: () => void }) {
             mb: 4,
           }}
         >
-          Performance Diagnostic
+          Biological Debt Diagnostic
         </Typography>
 
         <Typography
@@ -161,9 +161,9 @@ function LandingScreen({ onStart }: { onStart: () => void }) {
             mb: 3,
           }}
         >
-          The Energy Gap
+          Where Is Your
           <br />
-          Diagnostic
+          Biological Debt Living?
         </Typography>
 
         <Typography
@@ -177,7 +177,7 @@ function LandingScreen({ onStart }: { onStart: () => void }) {
             mx: 'auto',
           }}
         >
-          Find out exactly which biological system is creating your gap.
+          Eight questions. Find out exactly which system is carrying the load.
         </Typography>
 
         <Box sx={{ width: 40, height: 2, bgcolor: C.accent, mx: 'auto', mb: 4, opacity: 0.6 }} />
@@ -192,9 +192,9 @@ function LandingScreen({ onStart }: { onStart: () => void }) {
             mx: 'auto',
           }}
         >
-          Eight questions. Two minutes.{' '}
+          Two minutes.{' '}
           <Box component="span" sx={{ color: C.textSecondary }}>
-            A diagnosis most men never get without a coaching call.
+            A diagnosis most men carry for years without ever locating it.
           </Box>
         </Typography>
 
@@ -213,7 +213,7 @@ function LandingScreen({ onStart }: { onStart: () => void }) {
             '&:hover': { bgcolor: C.accentHover },
           }}
         >
-          Find my gap
+          Find where it lives
         </Button>
 
         <Typography sx={{ fontSize: '0.75rem', color: C.textDim, letterSpacing: '0.02em' }}>
@@ -363,7 +363,7 @@ function ResultScreen({ resultKey }: { resultKey: ResultKey }) {
             mb: 3,
           }}
         >
-          Your Diagnosis
+          Where Your Debt Lives
         </Typography>
 
         <Typography
@@ -438,12 +438,12 @@ function ResultScreen({ resultKey }: { resultKey: ResultKey }) {
               mb: 6,
             }}
           >
-            I went through the same thing. I built a full breakdown of the system behind this
-            because I needed someone to explain it to me the way I am explaining it to you now.
-            The three mechanisms that explain why every approach you have tried has eventually
-            broken down — biological debt, identity gravity, and reward engineering — and what
-            performance architecture looks like when all of it gets addressed at the same time.
-            Awareness is everything. This is where it starts.
+            I went through the same thing. What came out of that work is the Codex. A full
+            breakdown of the system behind this, because I needed someone to explain it to me
+            the way I am explaining it to you now. The three mechanisms that explain why every
+            approach you have tried has eventually broken down: biological debt, identity
+            gravity, and reward engineering. And what it looks like when all of it gets
+            addressed at the same time. Awareness is everything. This is where it starts.
           </Typography>
 
           <Button
