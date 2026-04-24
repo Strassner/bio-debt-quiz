@@ -449,7 +449,7 @@ function ResultScreen({ resultKey }: { resultKey: ResultKey }) {
           <Button
             variant="contained"
             size="large"
-            href="#"
+            href="https://linktw.in/RDrHmp"
             sx={{
               bgcolor: C.accent,
               color: C.textPrimary,
